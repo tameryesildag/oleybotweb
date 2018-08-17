@@ -280,6 +280,10 @@ header.masthead h2 {
     opacity: 0
 }
 
+#widgets {
+    margin-top: 30px;
+}
+
 .floating-label-form-group:not(:first-child) {
     padding-left: 14px;
     border-left: 1px solid #e9ecef
