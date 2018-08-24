@@ -40,7 +40,7 @@ hr.star-light {
 
 hr.star-light:after {
     color: #fff;
-    background-color: rgb(255, 208, 148)                                           /* YILDIZIN RENGI */
+    background-color: #a0ffd4                                        /* YILDIZIN RENGI */
 }
 
 hr.star-dark {
@@ -324,7 +324,7 @@ a:hover {
 }
 
 .bg-primary {
-    background-color: rgb(255, 208, 142) !important                                    /* ARKAPLAN RENGI */
+    background-color: #a0ffd4 !important                                    /* ARKAPLAN RENGI */
 }
 
 .bg-secondary {
