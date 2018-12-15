@@ -39,8 +39,8 @@ li a:hover {
 .profile-img {
   border-radius: 50%;
   box-shadow: inset 0 0 10px #000000;
-  width: 225px;
-  height: 225px;
+  width: 200px;
+  height: 200px;
   display: inline-block;
 }
 
@@ -49,13 +49,40 @@ li a:hover {
   display: inline-block;
 }
 
+.command-name{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  margin: 25px;
+  font-size: 400%;
+  color: white;
+}
+
+.command-name-box{
+  border-bottom-style: groove;
+  border-bottom-width: 5px;
+  border-bottom-color: gray;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.command-description-box{
+ margin: 50px;
+}
+
+.command-description{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  padding: 0px;
+  font-size: 25px;
+  letter-spacing: 2px;
+}
+
 .description {
   vertical-align: top;
   margin: 0px;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  padding-right: 10px;
-  padding-left: 50px;
+  padding: 25px;
+  padding: auto;
   color: rgba(255, 255, 255, 0.7);
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bolder;
@@ -86,7 +113,15 @@ li a:hover {
   text-align: center;
   padding: 50px;
   font-size: 750px;
+  margin: 0px;
   color: white;
+}
+
+.h1-description{
+  font-size: 20px;
+  padding: 0px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
@@ -125,12 +160,18 @@ b {
   display: inline-block;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 100;
   border-right: .15em solid white;
   animation: 
   blink-caret .75s step-end infinite;
 }
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: white; }
+}
+
 
 .command-box{
   text-align:center;
@@ -147,6 +188,8 @@ b {
   font-weight: bold;
   margin-left: 20px;
   margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 #invite-button:hover{
   background-color: transparent;
