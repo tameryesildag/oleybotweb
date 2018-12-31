@@ -1,1 +1,1 @@
-window.location = "https://discord.gg/nTZ8bBN";
+window.location = "https://discordapp.com/oauth2/authorize?client_id=432509584238837760&scope=bot&permissions=8";
