@@ -1,0 +1,1 @@
+window.location = "https://discordbots.org/bot/432509584238837760/vote";
