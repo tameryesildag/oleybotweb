@@ -1,0 +1,1 @@
+window.location = "https://discord.gg/e7E5RaP";
