@@ -8,6 +8,281 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
     <style>
+        #particles-js {
+            height: 100%;
+            background: #f00;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: transparent;
+        }
+
+        li {
+            float: right;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 40px 25px;
+            text-decoration: none;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+        }
+
+        /* Change the link color to #111 (black) on hover */
+        li a:hover {
+            background-color: rgba(0, 0, 0, 0.5)
+        }
+
+        .profile-box {
+            text-align: left;
+            padding: 75px 100px;
+        }
+
+        .profile-img {
+            width: 250px;
+            height: 212px;
+            display: inline-block;
+        }
+
+        .name {
+            -webkit-animation: colorchange 20s infinite alternate;
+            display: inline-block;
+        }
+
+        .command-name {
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 100;
+            margin: 25px;
+            font-size: 400%;
+            color: white;
+        }
+
+        .command-name-box {
+            border-bottom-style: groove;
+            border-bottom-width: 5px;
+            border-bottom-color: gray;
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+
+        .command-description-box {
+            margin: 50px;
+        }
+
+        .command-description {
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+            padding: 0px;
+            font-size: 25px;
+            letter-spacing: 2px;
+        }
+
+        .description {
+            vertical-align: top;
+            margin: 0px;
+            padding: 25px;
+            padding: auto;
+            color: rgba(255, 255, 255, 0.7);
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+            display: inline-block;
+            font-size: 50px;
+
+        }
+
+        .description-box {
+            vertical-align: top;
+            margin: 0px;
+            padding: 0px;
+            color: rgba(255, 255, 255, 0.7);
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+            display: inline-block;
+            font-size: 75px;
+        }
+
+        #title {
+            font-size: 75px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+            letter-spacing: 7px;
+        }
+
+        .h1-box {
+            text-align: center;
+            padding: 50px;
+            font-size: 750px;
+            margin: 0px;
+            color: white;
+        }
+
+        .h1-description {
+            font-size: 20px;
+            padding: 0px;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .container {
+            text-align: left;
+        }
+
+        b {
+            font-weight: 900
+        }
+
+        .text-box {
+            text-align: left;
+            color: white;
+            margin-top: 50px;
+            margin-left: 250px;
+            padding: 12px;
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+            width: 800px;
+            display: inline-block;
+            box-shadow: inset 0 0 px #000000;
+            line-height: 30px;
+            letter-spacing: 2.5px;
+        }
+
+        .table-box {
+            text-align: center;
+            display: block;
+            padding-top: 50px;
+            padding-left: 40px;
+            padding-right: 40px;
+        }
+
+        #command {
+            display: inline-block;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 50px;
+            font-weight: 100;
+            border-right: .15em solid white;
+            animation:
+                blink-caret .75s step-end infinite;
+        }
+
+        @keyframes blink-caret {
+
+            from,
+            to {
+                border-color: transparent
+            }
+
+            50% {
+                border-color: white;
+            }
+        }
+
+
+        .command-box {
+            text-align: center;
+            padding: 0px;
+        }
+
+        .buttons {
+            text-align: center;
+        }
+
+        #invite-button {
+            padding: 25px;
+            border-radius: 5%;
+            font-weight: bold;
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        #invite-button:hover {
+            background-color: transparent;
+        }
+
+        .table {
+            background-color: transparent !important;
+        }
+
+        @keyframes blink-caret {
+
+            from,
+            to {
+                border-color: transparent
+            }
+
+            50% {
+                border-color: white;
+            }
+        }
+
+        @-webkit-keyframes colorchange {
+            0% {
+
+                color: blue;
+            }
+
+            10% {
+
+                color: #8e44ad;
+            }
+
+            20% {
+
+                color: #1abc9c;
+            }
+
+            30% {
+
+                color: #d35400;
+            }
+
+            40% {
+
+                color: blue;
+            }
+
+            50% {
+
+                color: #34495e;
+            }
+
+            60% {
+
+                color: blue;
+            }
+
+            70% {
+
+                color: #2980b9;
+            }
+
+            80% {
+
+                color: #f1c40f;
+            }
+
+            90% {
+
+                color: #2980b9;
+            }
+
+            100% {
+
+                color: pink;
+            }
+        }
+
         body {
             background-image: urL("https://raw.githubusercontent.com/tameryesildag/oleybot.github.io/master/Images/galaxy3.jpg");
             background-size: cover;
@@ -37,7 +312,8 @@
     <ul>
         <li style="text-decoration: none;"><a style="text-decoration: none;" href="https://www.oleybot.tk/desteksunucusu">Destek</a></li>
         <li style="text-decoration: none;"><a style="text-decoration: none;" href="/komutlar">Komutlar</a></li>
-        <li style="text-decoration: none;"><a style="text-decoration: none;" target="_blank" href="../index.html">Ana Sayfa</a></li>
+        <li style="text-decoration: none;"><a style="text-decoration: none;" target="_blank" href="../index.html">Ana
+                Sayfa</a></li>
     </ul>
     <div class="error-container">
         <div class="error">
