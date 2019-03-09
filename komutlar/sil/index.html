@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>Oley | Türkçe Discord Botu</title>
     <link href="../../style.css" rel="stylesheet" type="text/css">
-    <link href="bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="../../bootstrap.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
@@ -18,9 +18,26 @@
     </div>
     <div class="command-description-box">
         <p class="command-description">
-            Girilen miktarda mesajı siler. Tek seferde en fazla 99 mesaj silinebilir. Birisi etiketlenirse sadece onun mesajları silinir.
+            Girilen miktarda mesajı siler. Tek seferde en fazla 99 mesaj silinebilir. Birisi etiketlenirse sadece onun mesajları silinir. Tırnak işareti içerisinde bir metin yazılırsa sadece o metini içeren mesajlar silinir.
             <br>
-            <br><b>Kullanım:</b> "o!sil 5" ya da "o!sil 5 @oley"
+            <div style="padding-right: 150px; padding-left: 150px;">
+                <table class="table table-dark" style="margin-top: 100px !important;">
+                    <tbody>
+                        <tr>
+                            <td>o!sil 5</a></td>
+                            <td>Son yazılan 5 mesajı siler.</td>
+                        </tr>
+                        <tr>
+                            <td>o!sil 30 @oley</a></td>
+                            <td>Son yazılan 30 mesajdan etiketlenen kişinin yazdıkları silinir.</td>
+                        </tr>
+                        <tr>
+                            <td>o!sil 30 "evet"</a></td>
+                            <td>Son yazılan 30 mesajdan içinde evet kelimesi geçenler silinir.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </p>
     </div>
 </body>
