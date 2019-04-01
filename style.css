@@ -36,6 +36,19 @@ li a:hover {
   background-color: rgba(0, 0, 0, 0.5)
 }
 
+@media only screen and (max-width: 600px) {
+  .profile-img{
+    text-align: center !important;
+  }
+  .profile-box{
+    text-align: center !important;
+    padding: 10px !important;
+  }
+  .description{
+    
+  }
+}
+
 .profile-box {
   text-align: left;
   padding: 75px 100px;
