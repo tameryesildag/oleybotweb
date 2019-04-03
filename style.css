@@ -1,7 +1,7 @@
 body {
   margin: 0px;
   padding: 0px;
-  background-image: url("https://raw.githubusercontent.com/tameryesildag/oleybot.github.io/master/Images/background2.png");
+  background-color: #2c2f33 !important;
 }
 
 #particles-js{
@@ -12,9 +12,9 @@ body {
 ul {
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding-right: 60px;
   overflow: hidden;
-  background-color: transparent;
+  background-color: #23272a;
 }
 
 li {
@@ -37,32 +37,74 @@ li a:hover {
 }
 
 @media only screen and (max-width: 600px) {
-  .profile-img{
-    text-align: center !important;
+  #icon{
+    display:none;
   }
-  .profile-box{
-    text-align: center !important;
-    padding: 10px !important;
+  ul {
+    margin: 0px;
+    padding: 0px;
+  }
+  #title{
+    font-size: 25px !important;
+    letter-spacing: 1px !important;
   }
   .description{
-    
+    font-size: 20px !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    margin: 0px !important;
   }
-}
-
-.profile-box {
-  text-align: left;
-  padding: 75px 100px;
-}
-
-.profile-img {
-  width: 250px;
-  height: 212px;
-  display: inline-block;
+  .table-box{
+    font-size: 10px !important;
+    padding: 5px !important;
+  }
+  .command-name{
+    font-size: 15px;
+  }
+  .image-box{
+    width: 90% !important;
+  }
 }
 
 .name {
   -webkit-animation: colorchange 20s infinite alternate;
   display: inline-block;
+}
+
+.image-description{
+  color: white;
+}
+
+.description {
+  text-align: center;
+  margin-left: 75px;
+  margin-right: 75px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 75px;
+  padding-bottom: 75px;
+  color: rgb(255, 255, 255);
+  font-family: 'Dosis', sans-serif;
+  display: inline-block;
+  font-size: 25px;
+}
+
+.image-container{
+  margin: 20px;
+  padding-top: 200px;
+  text-align: center;
+}
+
+.image-box{
+  display: inline-block;
+  width: 25%;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.image{
+  padding: 10px;
+  width: 100%;
 }
 
 .command-name{
@@ -87,24 +129,11 @@ li a:hover {
 
 .command-description{
   color: white;
-  font-family: Arial, Helvetica, sans-serif;
   margin: 0px;
   padding: 0px;
   font-size: 25px;
   letter-spacing: 2px;
-}
-
-.description {
-  vertical-align: top;
-  margin: 0px;
-  padding: 25px;
-  padding: auto;
-  color: rgba(255, 255, 255, 0.7);
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bolder;
-  display: inline-block;
-  font-size: 50px;
-
+  font-family: 'Dosis', sans-serif;
 }
 
 .description-box {
@@ -116,6 +145,7 @@ li a:hover {
   font-weight: bolder;
   display: inline-block;
   font-size: 75px;
+  text-align: center;
 }
 
 #title {
@@ -175,8 +205,8 @@ b {
 #command{
   display: inline-block;
   color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 50px;
+  font-family: 'Dosis', sans-serif;
+  font-size: 60px;
   font-weight: 100;
   border-right: .15em solid white;
   animation: 
@@ -201,11 +231,13 @@ b {
 #invite-button{
   padding: 25px;
   border-radius: 5%;
-  font-weight: bold;
+  font-size: 20px;
   margin-left: 20px;
   margin-right: 20px;
   margin-top: 20px;
   margin-bottom: 20px;
+  width: 250px;
+  height: 100px;
 }
 #invite-button:hover{
   background-color: transparent;
