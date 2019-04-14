@@ -71,10 +71,6 @@ li a:hover {
   display: inline-block;
 }
 
-.image-description{
-  color: white;
-}
-
 .description {
   text-align: center;
   margin-left: 75px;
@@ -89,10 +85,29 @@ li a:hover {
   font-size: 25px;
 }
 
+.seperator-container{
+  height: 200px;
+  width: 100%;
+  margin: 0px;
+  text-align: center;
+}
+
+.seperator{
+  width: 80%;
+  height: 10px;
+  top: 50%;
+  border-bottom-color: #3b3f44;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  display: inline-block;
+  position: relative;
+}
+
 .image-container{
   margin: 20px;
-  padding-top: 200px;
+  padding-top: 50px;
   text-align: center;
+  height: 500px;
 }
 
 .image-box{
@@ -105,6 +120,32 @@ li a:hover {
 .image{
   padding: 10px;
   width: 100%;
+  
+}
+
+.image-description{
+  color: white;
+
+}
+
+.image-button{
+  position: relative;
+  width: 30px;
+  height: 100px;
+  display: inline-block;
+  padding: 0px;
+  margin: 0px;
+  background-color: #1a1b1c;
+  border-radius: 10%;
+  border-color: transparent;
+  color: white;
+  text-decoration: none;
+  vertical-align: middle;
+  top: 30%;
+}
+
+.image-button:hover{
+  background-color:  #252628;
 }
 
 .command-name{

@@ -2,29 +2,28 @@
 <html>
 
 <head>
-   <link rel="icon" href="../../Images/profile.ico">
-    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
-    <meta charset="utf-8">
-
-<link rel="icon" href="../../Images/profile.ico">
-
-    <meta name="title" content="Oley">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <link rel="icon" href="/Images/profile.ico">
+   <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+   <meta charset="utf-8">
+   <link rel="prefetch" href="/Images/example1.png" />
+   <link rel="prefetch" href="/Images/example2.png" />
+   <link rel="prefetch" href="/Images/example3.png" />
+   <link rel="prefetch" href="/Images/example4.png" />
+   <link rel="prefetch" href="/Images/example5.png" />
+   <link rel="prefetch" href="/Images/example6.png" />
+   <link rel="prefetch" href="/Images/example7.png" />
+   <link rel="prefetch" href="/Images/example8.png" />
+   <link rel="prefetch" href="/Images/example9.png" />
+   <meta name="title" content="Oley">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description"
         content="Google görseller, müzik, Ekşi Sözlük, oylama, döviz kurları ve daha birçok özelliği bulunan Türkçe bir Discord botu. ">
     <meta name="keywords"
         content="türkçe, discord bot, oley, oleybot, türkçe discord botu, ekşi sözlük, google, görseller, müzik">
     <title>Oley</title>
     <link href="style.css" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-    <script>
-        (adsbygoogle = window.adsbygoogle || []).push({
-            google_ad_client: "ca-pub-8765057528309805",
-            enable_page_level_ads: true
-        });
-    </script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
 </head>
 
 <body>
@@ -53,10 +52,16 @@
                 <a href="/komutlar"
             target="_blank"><button type="button" id="invite-button" class="btn btn-success">Komutları Görüntüle</button></a>
     </div>
+    <div class="seperator-container">
+        <div class="seperator"></div>
+    </div>
     <div class="image-container">
-        <div class="image-box"><img class="image" style=""src="Images/example1.png"><p class="image-description"><b>Resim</b><br>o!resim komutu ile webte hızlı bir şekilde resim araması yapabilirsin. Tıpkı Google Görseller gibi!<br></p></div>
-        <div class="image-box"><img class="image" style=""src="Images/example2.png"><p class="image-description"><b>Ekşi Sözlük</b><br>o!ekşi komutu ile Ekşi Sözlük'teki bir başlıktaki en beğenilen entry'i görebilirsin.</p></div>
-        <div class="image-box"><img class="image" style=""src="Images/example3.png"><p class="image-description"><b>Yazma Yarışı</b><br>o!yazmayarışı komutu ile arkadaşlarınla gerçek zamanlı klavye yarışı yapabilirsin. Hem de Türkçe metinler ile.<br></p></div>
+            <button style ="float: left;"class="image-button" onclick="leftButton()">&#10094;</button>
+            <button style ="float: right;"class="image-button" onclick="rightButton()">&#10095;</button>
+
+        <div class="image-box"><img id="img1" class="image"src="Images/example1.png"><p id="desc1" class="image-description"><b>Resim</b><br>o!resim komutu ile webte hızlı bir şekilde resim araması yapabilirsin. Tıpkı Google Görseller gibi!<br></p></div>
+        <div class="image-box"><img id="img2" class="image"src="Images/example2.png"><p id="desc2" class="image-description"><b>Ekşi Sözlük</b><br>o!ekşi komutu ile Ekşi Sözlük'teki bir başlıktaki en beğenilen entry'i görebilirsin.</p></div>
+        <div class="image-box"><img id="img3" class="image"src="Images/example3.png"><p id="desc3" class="image-description"><b>Yazma Yarışı</b><br>o!yazmayarışı komutu ile arkadaşlarınla gerçek zamanlı klavye yarışı yapabilirsin. Hem de Türkçe metinler ile.<br></p></div>
     </div>
     <script src="animation.js"></script>
 </body>
