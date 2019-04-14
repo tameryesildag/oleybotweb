@@ -77,7 +77,7 @@ setInterval(() => {
     if(!clickedRecently){
         fadeOut();
     }
-}, 5000)
+}, 10000)
 
 function leftButton() {
     fadeOut("reverse");
