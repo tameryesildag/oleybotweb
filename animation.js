@@ -15,7 +15,7 @@ let images = [
     ["example7", "example8", "example9"]
 ];
 let descriptions = [
-    ["<b>Resim</b><br>o!resim komutu ile webte hızlı bir şekilde resim araması yapabilirsin. Tıpkı Google Görseller gibi!", "<b>Ekşi Sözlük</b><br>o!ekşi komutu ile Ekşi Sözlük'teki bir başlıktaki en beğenilen entry'i görebilirsin.", "<b>Yazma Yarışı</b><br>o!yazmayarışı komutu ile arkadaşlarınla gerçek zamanlı klavye yarışı yapabilirsin. Hem de Türkçe metinler ile."],
+    ["<b>Resim</b><br>o!resim komutu ile webte hızlı bir şekilde resim araması yapabilirsin. Tıpkı Google Görseller gibi!", "<b>Ekşi Sözlük</b><br>o!ekşi komutu ile Ekşi Sözlük'teki bir başlıktaki en beğenilen entry'i görebilirsin.", "<b>Yazma Yarışı</b><br>o!yazmayarışı komutu ile arkadaşlarınla gerçek zamanlı yazı yazma yarışı yapabilirsin."],
     ["<b>Oylama</b><br>o!oylama komutu ile sunucunda anket oluşturabilirsin. Üyeler mesaja tepki vererek oy verebilirler.", "<b>Tahmin Oyunu</b><br>o!tahminoyunu komutu ile tahmin oyununu başlatabilirsin. Botun seçtiği rastgele sayıyı ilk bilen oyunu kazanır.", "<b>Çeviri</b><br>o!çeviri komutu ile herhangi bir dilde yazılmış istediğin bir metni istediğin dile çevirebilirsin."],
     ["<b>Vikipedi</b><br>o!viki komutu ile vikipedide arama yapabilirsin. Hem de vpn kullanmadan 😲", "<b>Yüksek Skorlar</b><br>o!yüksekskorlar komutu ile sunucundaki yazma yarışı yüksek skorlarını görebilirsin.", "<b>Çekiliş</b><br>o!çekiliş komutu ile sunucunda farklı yöntemler ile çekiliş düzenleyebilirsin."]
 ]
